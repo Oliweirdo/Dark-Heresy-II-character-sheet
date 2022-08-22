@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import { connect } from "react-redux";
-import { updateTrait, removeTrait } from "../../../js/actions/traitsActions";
+import { updateTrait, removeTrait } from "../../js/actions/traitsActions";
 
 const mapStateToProps = (state, ownProps) => {
   return {

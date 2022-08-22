@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { connect } from "react-redux";
 import Trait from "./Trait";
-import { addTrait } from "../../../js/actions/traitsActions";
+import { addTrait } from "../../js/actions/traitsActions";
 
 const mapStateToProps = (state) => {
   return {
